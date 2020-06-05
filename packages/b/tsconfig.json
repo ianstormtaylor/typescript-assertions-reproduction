@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "strict": true,
+    "target": "esnext"
+  }
+}

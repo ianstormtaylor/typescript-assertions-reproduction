@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "typescript-assertions-reproduction",
+  "description": "Reproducing a TypeScript situation that causes weird assertion behavior.",
+  "version": "0.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "cd ./packages/a && yarn build && cd ../b && yarn build"
+  }
+}

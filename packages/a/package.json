@@ -1,0 +1,12 @@
+{
+  "name": "a",
+  "version": "0.0.0",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "build": "tsc -b -v"
+  },
+  "dependencies": {
+    "typescript": "^3.9.3"
+  }
+}
